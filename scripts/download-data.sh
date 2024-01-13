@@ -18,5 +18,4 @@ else
     unzip daigt-v2-train-dataset.zip 
     rm llm-detect-ai-generated-text.zip
     rm daigt-v2-train-dataset.zip
-
 fi
