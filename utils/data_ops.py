@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-def get_whole_dataset(path: str) -> pd.Dataframe:
+def get_whole_dataset(path: str) -> pd.DataFrame:
     train_data_path = f"{path}train_essays.csv"
     another_train_prompt = f"{path}train_v2_drcat_02.csv"
     second_dataset = pd.read_csv(another_train_prompt)
