@@ -11,3 +11,6 @@ def get_whole_dataset(path: str) -> pd.DataFrame:
     second_dataset = second_dataset[['text', 'label']]
     full_training_data = pd.concat([full_training_data, second_dataset], axis=0)
     return full_training_data
+
+if __name__ == "__main__":
+    print("dupa")
